@@ -1,0 +1,1 @@
+Delete FROM creature where id=25315;

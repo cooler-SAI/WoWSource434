@@ -1,0 +1,43 @@
+-- dberror.log fix probable from deleted duplicates remains
+DELETE FROM creature_addon WHERE guid=98284;
+DELETE FROM creature_addon WHERE guid=98214;
+DELETE FROM creature_addon WHERE guid=97711;
+DELETE FROM creature_addon WHERE guid=97395;
+DELETE FROM creature_addon WHERE guid=97328;
+DELETE FROM creature_addon WHERE guid=97118;
+DELETE FROM creature_addon WHERE guid=91487;
+DELETE FROM creature_addon WHERE guid=30710;
+DELETE FROM creature_addon WHERE guid=29791;
+DELETE FROM creature_addon WHERE guid=46327;
+DELETE FROM creature_addon WHERE guid=30201;
+DELETE FROM creature_addon WHERE guid=46333;
+DELETE FROM creature_addon WHERE guid=46915;
+DELETE FROM creature_addon WHERE guid=30701;
+DELETE FROM creature_addon WHERE guid=30726;
+DELETE FROM creature_addon WHERE guid=29556;
+DELETE FROM creature_addon WHERE guid=30738;
+DELETE FROM creature_addon WHERE guid=46917;
+DELETE FROM creature_addon WHERE guid=123641;
+DELETE FROM creature_addon WHERE guid=51522;
+DELETE FROM creature_addon WHERE guid=51521;
+DELETE FROM creature_addon WHERE guid=51532;
+DELETE FROM creature_addon WHERE guid=51531;
+DELETE FROM creature_addon WHERE guid=117952;
+DELETE FROM creature_addon WHERE guid=90236;
+DELETE FROM creature_addon WHERE guid=121310;
+DELETE FROM creature_addon WHERE guid=53525;
+DELETE FROM creature_addon WHERE guid=29664;
+DELETE FROM creature_addon WHERE guid=46323;
+DELETE FROM creature_addon WHERE guid=46244;
+DELETE FROM creature_addon WHERE guid=54567;
+DELETE FROM creature_addon WHERE guid=54568;
+DELETE FROM creature_addon WHERE guid=54569;
+
+-- missing entry
+DELETE FROM trinity_string WHERE entry IN (650,651,657,658,659,660);
+INSERT INTO `trinity_string` VALUES ('650', 'Alliance', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('651', 'Horde', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('657', 'The %s has taken the %s', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('658', '$n has defended the %s', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('659', '$n has assaulted the %s', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('660', '$n claims the %s! If left unchallenged, the %s will control it in 1 minute!', null, null, null, null, null, null, null, null);

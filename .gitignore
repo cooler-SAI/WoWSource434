@@ -1,0 +1,5 @@
+build*/
+src/server/scripts/Custom/command_arena.cpp
+src/server/scripts/Custom/system_duel_reset.cpp
+src/server/scripts/Custom/system_announce_vip.cpp
+src/server/scripts/Custom/system_announce_login.cpp

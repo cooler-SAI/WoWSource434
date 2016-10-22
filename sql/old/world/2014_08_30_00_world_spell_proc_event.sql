@@ -1,0 +1,2 @@
+UPDATE `spell_proc_event` SET `entry`='96947', `SchoolMask`='0', `SpellFamilyName`='0', `SpellFamilyMask0`='0', `SpellFamilyMask1`='0', `SpellFamilyMask2`='0', `procFlags`='0', `procEx`='0', `ppmRate`='0', `CustomChance`='0', `Cooldown`='60' WHERE (`entry`='96947');
+UPDATE `spell_proc_event` SET `entry`='97130', `SchoolMask`='0', `SpellFamilyName`='0', `SpellFamilyMask0`='0', `SpellFamilyMask1`='0', `SpellFamilyMask2`='0', `procFlags`='0', `procEx`='0', `ppmRate`='0', `CustomChance`='0', `Cooldown`='60' WHERE (`entry`='97130');

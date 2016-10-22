@@ -1,0 +1,10 @@
+UPDATE `creature_template` SET `gossip_menu_id`="22000" WHERE entry IN (32638,32639,32641,32642);
+DELETE FROM gossip_menu_option WHERE menu_id=22000;
+INSERT INTO `gossip_menu_option` VALUES (22000, 1, 1, 'Show me what you sale.', 3, 128, 0, 0, 0, 0, '');
+INSERT INTO `gossip_menu_option` VALUES (22000, 0, 0, 'Please go away!', 1, 1, 0, 0, 0, 0, '');
+DELETE FROM smart_scripts WHERE entryorguid IN (32638,32639,32641,32642);
+UPDATE `creature_template` SET `AIName`="SmartAI" WHERE entry IN (32638,32639,32641,32642);
+INSERT INTO `smart_scripts` VALUES ('32638', '0', '0', '0', '62', '0', '100', '0', '22000', '0', '0', '0', '41', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', 'Force Vendor despawn');
+INSERT INTO `smart_scripts` VALUES ('32639', '0', '0', '0', '62', '0', '100', '0', '22000', '0', '0', '0', '41', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', 'Force Vendor despawn');
+INSERT INTO `smart_scripts` VALUES ('32641', '0', '0', '0', '62', '0', '100', '0', '22000', '0', '0', '0', '41', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', 'Force Vendor despawn');
+INSERT INTO `smart_scripts` VALUES ('32642', '0', '0', '0', '62', '0', '100', '0', '22000', '0', '0', '0', '41', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', 'Force Vendor despawn');

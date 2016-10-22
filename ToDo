@@ -1,0 +1,57 @@
+
+1.All the starting zone must be taken again to be checked and add the right fix for each rong quest specialy from gilneas
+and from kezan + all the others that requried fix.
+
+ ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+ º                                º
+ º        WowSource  4.3.4        º
+ º       DBtext ColorPicker       º
+ º                                º
+ ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+Name         |     Code
+LIGHTRED           = cffff6060
+LIGHTBLUE          = cff00ccff
+TORQUISEBLUE       = cff00C78C
+SPRINGGREEN        = cff00FF7F
+GREENYELLOW        = cffADFF2F
+BLUE               = cff0000ff
+PURPLE             = cffDA70D6
+GREEN              = cff00ff00
+RED                = cffff0000
+GOLD               = cffffcc00
+GOLD2              = cffFFC125
+GREY               = cff888888
+WHITE              = cffffffff
+SUBWHITE           = cffbbbbbb
+MAGENTA            = cffff00ff
+YELLOW             = cffffff00
+ORANGEY            = cffFF4500
+CHOCOLATE          = cffCD661D
+CYAN               = cff00ffff
+IVORY              = cff8B8B83
+LIGHTYELLOW        = cffFFFFE0
+SEXGREEN           = cff71C671
+SEXTEAL            = cff388E8E
+SEXPINK            = cffC67171
+SEXBLUE            = cff00E5EE
+SEXHOTPINK         = cffFF6EB4 
+
+
+1. The other problem is boss Lord Rhyolith http://www.wowhead.com/npc=52558/lord-rhyolith  who make the world freeze right now after you fight a litle  with him and you cant do nothing  when freeze comes but no crash 
+
+2. in isle of conquest we  have a problem
+   when you go bellow the ships
+   down and capture the flag
+   in 2 minutes you have the flag for your  faction and appear portal to ship but when you take the portal he teleport you WRONG and you die  and it  happens  because the coordonates  for teleport are wrong  not to the ships its some where  very far away  and  wrong
+   i dont know if the coordonates are in the data base or c++ scripts
+   when teleport will work then its all ok  in that  bg
+   and yeah quest sacrificies its a trash because of that crash
+
+3. Westfall Questline works 99% now only 2 quest that im busy working on (Rise of the Brotherhood)http://www.wowhead.com/quest=26322 and (A Vision of the Past)http://www.wowhead.com/quest=26320 for this quest we need sniff.
+   I will add all missing data when i get home.
+
+4. Started working on Duskwood dont mess with code or data for that zone please
+
+guides for new spawn gameobjects 179126 upper then that 
+guides for new creatures spawn 280744 uper then that

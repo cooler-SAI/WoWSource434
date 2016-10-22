@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD `currentPetSlot` smallint(2) NOT NULL DEFAULT 0 AFTER `grantableLevels`;

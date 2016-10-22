@@ -1,0 +1,327 @@
+-- Argent Crusader
+DELETE FROM `creature_template` WHERE `entry` = '45346';
+INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid1`, `modelid2`, `modelid3`, `modelid4`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `exp_unk`, `faction_A`, `faction_H`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_fly`, `scale`, `rank`, `mindmg`, `maxdmg`, `dmgschool`, `attackpower`, `dmg_multiplier`, `baseattacktime`, `rangeattacktime`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `minrangedmg`, `maxrangedmg`, `rangedattackpower`, `type`, `type_flags`, `type_flags2`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `spell5`, `spell6`, `spell7`, `spell8`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `InhabitType`, `HoverHeight`, `Health_mod`, `Mana_mod`, `Mana_mod_extra`, `Armor_mod`, `RacialLeader`, `questItem1`, `questItem2`, `questItem3`, `questItem4`, `questItem5`, `questItem6`, `movementId`, `RegenHealth`, `equipment_id`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`, `WDBVerified`) VALUES ('45346', '0', '0', '0', '0', '0', '26224', '26225', '26226', '26227', 'Argent Crusader', '', '', '0', '45', '45', '0', '0', '2131', '2131', '0', '1', '1.14286', '1', '1', '1', '1', '49', '75', '0', '19', '46.6', '1500', '1500', '1', '0', '2048', '0', '0', '0', '0', '0', '0', '39', '60', '15', '7', '6144', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '5', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '', '15595');
+
+-- add 56 missing spawns from Stratholme for 45346
+DELETE FROM creature WHERE id=45346 and map=329;
+INSERT INTO `creature` VALUES (317410, 45346, 329, 0, 0, 1, 1, 26224, 0, 3664.42, -3157.25, 128.205, 2.09439, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317411, 45346, 329, 0, 0, 1, 1, 26224, 0, 3618.11, -3186.84, 131.06, 0.418879, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317412, 45346, 329, 0, 0, 1, 1, 26224, 0, 3682.45, -3205.3, 127.333, 2.14675, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317413, 45346, 329, 0, 0, 1, 1, 26224, 0, 3670.64, -3211.26, 127.069, 1.8675, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317414, 45346, 329, 0, 0, 1, 1, 26224, 0, 3664.4, -3175.06, 126.54, 2.33874, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317415, 45346, 329, 0, 0, 1, 1, 26224, 0, 3660.55, -3176.75, 126.597, 1.97222, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317416, 45346, 329, 0, 0, 1, 1, 26224, 0, 3662.98, -3192.01, 126.615, 2.23402, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317417, 45346, 329, 0, 0, 1, 1, 26224, 0, 3675.96, -3180.54, 126.333, 2.26893, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317418, 45346, 329, 0, 0, 1, 1, 26224, 0, 3653.42, -3137.63, 134.859, 3.68265, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317419, 45346, 329, 0, 0, 1, 1, 26224, 0, 3643.61, -3144.17, 134.86, 0.541052, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317420, 45346, 329, 0, 0, 1, 1, 26224, 0, 3658.06, -3095.81, 134.199, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317421, 45346, 329, 0, 0, 1, 1, 26224, 0, 3457.48, -3080.73, 135.085, 0.506145, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317422, 45346, 329, 0, 0, 1, 1, 26224, 0, 3454.49, -3076.39, 135.085, 0.628318, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317423, 45346, 329, 0, 0, 1, 1, 26224, 0, 3512.92, -3066.07, 135.08, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317424, 45346, 329, 0, 0, 1, 1, 26224, 0, 3547.41, -3076.06, 135.08, 2.09439, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317425, 45346, 329, 0, 0, 1, 1, 26224, 0, 3656.99, -3162.08, 128.252, 1.95477, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317426, 45346, 329, 0, 0, 1, 1, 26224, 0, 3576.22, -3081.87, 136.071, 0.506145, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317427, 45346, 329, 0, 0, 1, 1, 26224, 0, 3592.91, -3069.49, 136.073, 3.735, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317428, 45346, 329, 0, 0, 1, 1, 26224, 0, 3619.94, -3095.27, 134.205, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317429, 45346, 329, 0, 0, 1, 1, 26224, 0, 3686.16, -3167.63, 126.733, 2.67035, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317430, 45346, 329, 0, 0, 1, 1, 26224, 0, 3639.41, -3128.6, 134.863, 0.628318, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317431, 45346, 329, 0, 0, 1, 1, 26224, 0, 3544.13, -3014.41, 125.083, 5.37561, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317432, 45346, 329, 0, 0, 1, 1, 26224, 0, 3571.05, -2999.04, 125.085, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317433, 45346, 329, 0, 0, 1, 1, 26224, 0, 3573.85, -3003.55, 125.085, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317434, 45346, 329, 0, 0, 1, 1, 26224, 0, 3569.83, -2966.76, 125.084, 4.72984, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317435, 45346, 329, 0, 0, 1, 1, 26224, 0, 3548.64, -2995.62, 125.083, 1.25664, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317436, 45346, 329, 0, 0, 1, 1, 26224, 0, 3531.69, -2963.89, 125.084, 5.49779, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317437, 45346, 329, 0, 0, 1, 1, 26224, 0, 3565.85, -2936.38, 125.084, 3.75246, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317438, 45346, 329, 0, 0, 1, 1, 26224, 0, 3571.52, -2944.85, 125.083, 3.71755, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317439, 45346, 329, 0, 0, 1, 1, 26224, 0, 3673.12, -3200.13, 126.355, 3.79444, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317440, 45346, 329, 0, 0, 1, 1, 26224, 0, 3667.72, -3166.53, 126.836, 3.81191, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317441, 45346, 329, 0, 0, 1, 1, 26224, 0, 3694.83, -3228.57, 127.46, 3.66519, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317442, 45346, 329, 0, 0, 1, 1, 26224, 0, 3679.45, -3236.41, 127.458, 0.401426, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317443, 45346, 329, 0, 0, 1, 1, 26224, 0, 3676.29, -3263.59, 127.426, 2.93505, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317444, 45346, 329, 0, 0, 1, 1, 26224, 0, 3691.76, -3407.48, 132.89, -1.54718, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317445, 45346, 329, 0, 0, 1, 1, 26224, 0, 3693.3, -3411.66, 132.925, 2.84129, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317446, 45346, 329, 0, 0, 1, 1, 26224, 0, 3648.67, -3475.63, 138.237, 2.25904, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317447, 45346, 329, 0, 0, 1, 1, 26224, 0, 3631.72, -3509.47, 136.468, -1.11394, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317448, 45346, 329, 0, 0, 1, 1, 26224, 0, 3599.13, -3508.26, 137.62, -1.38807, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317449, 45346, 329, 0, 0, 1, 1, 26224, 0, 3609.7, -3477.64, 136.307, 5.34071, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317450, 45346, 329, 0, 0, 1, 1, 26224, 0, 3558.19, -3448.31, 136.982, 0.575959, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317451, 45346, 329, 0, 0, 1, 1, 26224, 0, 3544.77, -3420.64, 135.247, 4.0795, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317452, 45346, 329, 0, 0, 1, 1, 26224, 0, 3596.76, -3335.18, 126.105, 6.20874, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317453, 45346, 329, 0, 0, 1, 1, 26224, 0, 3496.1, -3307.11, 130.347, 5.70723, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317454, 45346, 329, 0, 0, 1, 1, 26224, 0, 3489.96, -3320.37, 130.423, 5.89921, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317455, 45346, 329, 0, 0, 1, 1, 26224, 0, 3614.5, -3327.73, 123.837, 4.76475, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317456, 45346, 329, 0, 0, 1, 1, 26224, 0, 3426.52, -3372.2, 141.748, 4.62512, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317457, 45346, 329, 0, 0, 1, 1, 26224, 0, 3426.25, -3386.74, 141.771, 1.6057, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317458, 45346, 329, 0, 0, 1, 1, 26224, 0, 3416.52, -3372.35, 142.278, 4.74729, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317459, 45346, 329, 0, 0, 1, 1, 26224, 0, 3416.44, -3386.61, 142.408, 1.65806, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317460, 45346, 329, 0, 0, 1, 1, 26224, 0, 3392.26, -3388.32, 143.187, 0.837758, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317461, 45346, 329, 0, 0, 1, 1, 26224, 0, 3390.38, -3385.6, 142.974, 0.453786, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317462, 45346, 329, 0, 0, 1, 1, 26224, 0, 3397.9, -3360.55, 142.9, 4.7822, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317463, 45346, 329, 0, 0, 1, 1, 26224, 0, 3387.46, -3360.56, 142.871, 4.7822, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317464, 45346, 329, 0, 0, 1, 1, 26224, 0, 3397.84, -3398.72, 143.037, 1.53589, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+INSERT INTO `creature` VALUES (317465, 45346, 329, 0, 0, 1, 1, 26224, 0, 3387.56, -3398.69, 142.969, 1.48353, 7200, 0, 0, 9240, 0, 0, 0, 0, 0);
+
+-- add missing aura or byte for involved npc
+DELETE FROM creature_template_addon WHERE entry IN (51323,46560,46559,44766,44825,44778,45491,44784,45490,45489,44609,44610,44640,44734,44737,44733,44732);
+INSERT INTO `creature_template_addon` VALUES (51323, 0, 0, 0, 257, 0, '18950');
+INSERT INTO `creature_template_addon` VALUES (46560, 0, 0, 0, 1, 0, '46598');
+INSERT INTO `creature_template_addon` VALUES (46559, 0, 0, 0, 1, 0, '46598 86802');
+INSERT INTO `creature_template_addon` VALUES (44766, 0, 0, 0, 1, 0, '46598');
+INSERT INTO `creature_template_addon` VALUES (44825, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (44778, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (45491, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (44784, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (45490, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (45489, 0, 0, 0, 257, 0, '');
+INSERT INTO `creature_template_addon` VALUES (44609, 0, 0, 50331648, 1, 0, '');
+INSERT INTO `creature_template_addon` VALUES (44610, 0, 0, 50397184, 1, 0, '');
+INSERT INTO `creature_template_addon` VALUES (44734, 0, 0, 0, 1, 0, '46598 84238');
+INSERT INTO `creature_template_addon` VALUES (44737, 0, 0, 0, 1, 0, '46598');
+INSERT INTO `creature_template_addon` VALUES (44733, 0, 0, 0, 1, 0, '46598');
+INSERT INTO `creature_template_addon` VALUES (44732, 0, 0, 0, 1, 0, '46598');
+-- make visible 33315
+DELETE FROM creature_template_addon WHERE entry=45423;
+
+-- add corect displayid for the Fiona's Caravan
+UPDATE `creature_template` SET `modelid1`=33315 WHERE `entry`=45423;
+
+-- wp for the involved guid and set who is leader and follower between 44737 and 44731
+DELETE FROM waypoint_data WHERE id=60585;
+INSERT INTO `waypoint_data` VALUES ('60585', '1', '1495.45', '624.727', '47.2357', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '2', '1481.84', '638.967', '47.0205', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '3', '1449.58', '678.178', '47.124', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '4', '1431.48', '704.232', '47.124', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '5', '1421.05', '722.966', '47.124', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '6', '1403.91', '760.006', '47.124', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '7', '1390.65', '793.639', '47.1241', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '8', '1382.61', '813.038', '47.3528', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '9', '1376.26', '827.566', '48.6063', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '10', '1372.95', '833.724', '49.2467', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '11', '1365.5', '833.213', '49.3411', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '12', '1365.2', '828.153', '49.198', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '13', '1393.69', '763.469', '47.1269', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '14', '1415.04', '711.977', '47.1269', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '15', '1420.84', '698.372', '47.1269', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '16', '1441.41', '670.793', '47.1269', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '17', '1473.54', '632.354', '48.0859', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '18', '1497.93', '613.982', '47.9297', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '19', '1524.21', '595.821', '46.6441', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '20', '1534.98', '588.688', '44.9961', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '21', '1543.36', '591.559', '44.4726', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '22', '1543.47', '597.011', '44.8403', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '23', '1537.85', '601.726', '45.6409', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '24', '1529.5', '605.354', '46.726', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '25', '1518.91', '609.639', '47.4837', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '26', '1509.8', '614.104', '47.401', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60585', '27', '1495.6', '624.466', '47.2465', '0', '0', '0', '0', '100', '0', '0');
+DELETE FROM creature_formations WHERE leaderGUID=60585;
+INSERT INTO `creature_formations` VALUES ('60585', '60584', '1', '0', '0');
+DELETE FROM creature_addon WHERE guid IN (60585,60584);
+INSERT INTO `creature_addon` VALUES ('60585', '60585', '0', '0', '0', '0', null);
+INSERT INTO `creature_addon` VALUES ('60584', '60585', '0', '0', '0', '0', null);
+
+-- wp for the involved guid and set who is leader and follower
+DELETE FROM creature_formations WHERE leaderGUID=64420;
+INSERT INTO `creature_formations` VALUES ('64420', '64418', '1', '0', '0');
+DELETE FROM waypoint_data WHERE id=64420;
+INSERT INTO `waypoint_data` VALUES ('64420', '1', '1374.01', '834.761', '49.2439', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '2', '1370.42', '843.426', '49.9148', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '3', '1365.08', '865.16', '52.0408', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '4', '1352.35', '905.18', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '5', '1346.16', '926.908', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '6', '1341.11', '950.166', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '7', '1336.29', '973.7', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '8', '1330.7', '998.477', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '9', '1321.75', '1021.01', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '10', '1311.45', '1042.19', '54.5995', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '11', '1296.32', '1065.17', '54.0379', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '12', '1286.2', '1078.57', '53.2786', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '13', '1267.92', '1099.13', '51.5187', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '14', '1252.72', '1113.62', '51.4227', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '15', '1238.46', '1124.52', '50.4772', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '16', '1221.57', '1136.99', '50.4772', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '17', '1204.67', '1149.47', '49.6128', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '18', '1187.59', '1161.67', '49.1007', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '19', '1170.22', '1173.47', '48.6101', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '20', '1153.04', '1185.08', '48.2352', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '21', '1132.31', '1197.7', '47.3741', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '22', '1099.06', '1218.36', '46.3676', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '23', '1093.57', '1221.38', '46.3457', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '24', '1088.01', '1220.98', '46.3401', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '25', '1089.98', '1212.31', '46.3621', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '26', '1149.49', '1174.58', '48.3428', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '27', '1209.99', '1133.73', '50.4772', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '28', '1256.55', '1097.23', '51.5092', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '29', '1281.65', '1068.09', '53.4051', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '30', '1302.77', '1035.79', '54.5992', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '31', '1332.42', '937.705', '54.5992', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '32', '1352.11', '866.926', '52.6448', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '33', '1368.62', '817.609', '48.0609', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '34', '1379.14', '798.937', '47.1299', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '35', '1386.5', '795.108', '47.1268', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '36', '1390.97', '798.966', '47.1268', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('64420', '37', '1374.06', '834.514', '49.2027', '0', '0', '0', '0', '100', '0', '0');
+DELETE FROM creature_addon WHERE guid IN (64418,64420);
+INSERT INTO `creature_addon` VALUES ('64418', '64420', '0', '0', '0', '0', null);
+INSERT INTO `creature_addon` VALUES ('64420', '64420', '0', '0', '0', '0', null);
+
+-- syncronize them to walk at the same speed both 
+UPDATE `creature_template` SET `speed_walk`=1.2, `speed_run`=1.2, `speed_swim`=1.2, `speed_fly`=1.2 WHERE `entry`=44731;
+UPDATE `creature_template` SET `speed_walk`=1.2, `speed_run`=1.2, `speed_swim`=1.2, `speed_fly`=1.2 WHERE `entry`=44737;
+
+-- fix wrong faction
+UPDATE `creature_template` SET `faction_A`=71, `faction_H`=71 WHERE `entry`=45617;
+
+-- delete unecessary spawns
+DELETE FROM creature WHERE guid IN (31347,30954,64777,64778,25617,26009,25190,26051,59645,59643,59327,59326,24899,25705);
+
+-- wp for the involved guid and set who is leader and follower
+DELETE FROM creature_addon WHERE guid IN (60079,60077);
+INSERT INTO `creature_addon` VALUES ('60079', '60079', '0', '0', '0', '0', null);
+INSERT INTO `creature_addon` VALUES ('60077', '60079', '0', '0', '0', '0', null);
+DELETE FROM creature_formations WHERE leaderGUID=60079;
+INSERT INTO `creature_formations` VALUES ('60079', '60077', '1', '0', '0');
+DELETE FROM waypoint_data WHERE id=60079;
+INSERT INTO `waypoint_data` VALUES ('60079', '1', '1099.77', '1218.16', '46.3758', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '2', '1062.39', '1251.51', '46.1584', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '3', '1007.32', '1295.09', '45.8974', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '4', '936.784', '1337.88', '46.8961', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '5', '885.203', '1358.04', '51.3665', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '6', '826.235', '1360.31', '56.205', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '7', '786.637', '1362.34', '62.5004', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '8', '752.381', '1360.89', '68.8399', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '9', '726.12', '1353.53', '72.7833', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '10', '712.444', '1345.78', '75.1843', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '11', '685.53', '1323.44', '79.4268', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '12', '656.283', '1308.02', '83.41', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '13', '627.28', '1295.12', '86.8415', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '14', '617.406', '1286.38', '87.1397', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '15', '618.073', '1279.89', '87.1949', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '16', '628.922', '1285.5', '86.6305', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '17', '662.051', '1306.19', '82.6845', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '18', '710.031', '1342.21', '75.8365', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '19', '755.167', '1359.11', '68.4458', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '20', '812.893', '1359.91', '57.7309', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '21', '864.461', '1359.23', '54.7117', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '22', '918.736', '1341.96', '47.8425', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '23', '999.043', '1295.19', '45.8857', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '24', '1041.78', '1264.31', '46.0588', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '25', '1088.07', '1217.14', '46.34', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '26', '1113.11', '1194.01', '46.9535', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '27', '1120.75', '1193.4', '47.2179', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '28', '1119.55', '1202.1', '46.896', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '29', '1111.23', '1210.42', '46.554', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('60079', '30', '1099.31', '1218.21', '46.3711', '0', '0', '0', '0', '100', '0', '0');
+
+-- wp for the involved guid and set who is leader and follower
+DELETE FROM creature_addon WHERE guid IN (59602,59603);
+INSERT INTO `creature_addon` VALUES ('59602', '59602', '0', '0', '0', '0', null);
+INSERT INTO `creature_addon` VALUES ('59603', '59602', '0', '0', '0', '0', null);
+DELETE FROM creature_formations WHERE leaderGUID=59602;
+INSERT INTO `creature_formations` VALUES ('59602', '59603', '1', '0', '0');
+DELETE FROM waypoint_data WHERE id=59602;
+INSERT INTO `waypoint_data` VALUES ('59602', '1', '626.023', '1295.43', '87.0093', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '2', '615.29', '1286.44', '87.1776', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '3', '591.812', '1266.17', '87.0575', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '4', '559.884', '1239.73', '86.1965', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '5', '545.964', '1233.23', '87.2414', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '6', '521.424', '1229.3', '89.2708', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '7', '482.248', '1228.38', '88.5951', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '8', '426.794', '1230.47', '86.0392', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '9', '384.151', '1235.02', '82.3907', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '10', '342.057', '1243.26', '80.9982', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '11', '268.937', '1267.39', '76.7839', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '12', '229.327', '1266.89', '75.4293', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '13', '197.452', '1260.99', '73.6468', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '14', '123.636', '1240.1', '70.2783', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '15', '116.23', '1236.33', '69.4587', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '16', '116.329', '1230.59', '69.3056', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '17', '125.376', '1232.07', '69.9427', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '18', '179.621', '1251.37', '71.2994', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '19', '229.702', '1264.58', '75.3693', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '20', '247.307', '1267.78', '76.5239', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '21', '276.006', '1265.18', '76.8824', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '22', '311.436', '1254.39', '79.5435', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '23', '342.217', '1243.55', '81.0042', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '24', '428.357', '1229.98', '86.2093', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '25', '483.347', '1227.98', '88.6009', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '26', '536.036', '1231.11', '88.2639', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '27', '552.254', '1236.12', '86.4826', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '28', '572.621', '1247.75', '86.5246', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '29', '641.864', '1296.26', '85.4764', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '30', '650.874', '1299.56', '84.5013', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '31', '649.891', '1305.12', '84.3683', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '32', '642.776', '1303.48', '85.1732', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59602', '33', '626.68', '1295.56', '86.9363', '0', '0', '0', '0', '100', '0', '0');
+
+-- wp for the involved guid and set who is leader and follower
+DELETE FROM creature_addon WHERE guid IN (59358,59357);
+INSERT INTO `creature_addon` VALUES ('59358', '59358', '0', '0', '0', '0', null);
+INSERT INTO `creature_addon` VALUES ('59357', '59358', '0', '0', '0', '0', null);
+DELETE FROM creature_formations WHERE leaderGUID=59358;
+INSERT INTO `creature_formations` VALUES ('59358', '59357', '1', '0', '0');
+DELETE FROM waypoint_data WHERE id=59358;
+INSERT INTO `waypoint_data` VALUES ('59358', '1', '123.09', '1239.91', '70.2342', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '2', '89.4164', '1228.93', '67.7906', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '3', '9.25146', '1206.41', '64.8641', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '4', '-40.5385', '1189.77', '64.2785', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '5', '-59.2945', '1184.34', '64.0269', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '6', '-67.9486', '1187.05', '63.9526', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '7', '-83.6685', '1199.46', '62.6921', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '8', '-108.893', '1219.4', '58.2286', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '9', '-146.642', '1240.28', '52.7263', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '10', '-158.774', '1250.48', '51.6242', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '11', '-168.78', '1262.44', '50.1736', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '12', '-176.536', '1264.79', '49.8924', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '13', '-178.333', '1261.04', '49.8067', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '14', '-174.414', '1254.47', '50.7733', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '15', '-163.399', '1245.87', '51.534', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '16', '-142.519', '1234.52', '53.0456', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '17', '-110.819', '1219.94', '57.8729', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '18', '-74.2489', '1191.37', '63.7641', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '19', '-50.4448', '1185.07', '63.9711', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '20', '0.757256', '1200.3', '64.5345', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '21', '46.5269', '1215.67', '65.7559', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '22', '131.526', '1236.33', '70.4652', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '23', '149.521', '1241.14', '70.8573', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '24', '156.993', '1244.95', '70.7821', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '25', '152.265', '1248.2', '71.1887', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '26', '146.323', '1247.66', '71.3067', '0', '0', '0', '0', '100', '0', '0');
+INSERT INTO `waypoint_data` VALUES ('59358', '27', '123.565', '1240.2', '70.2798', '0', '0', '0', '0', '100', '0', '0');
+
+-- add movement for below guids
+UPDATE creature SET MovementType=1 WHERE guid=59374;
+UPDATE creature SET spawndist=8 WHERE guid=59374;
+UPDATE creature SET MovementType=1 WHERE guid=44733;
+UPDATE creature SET spawndist=8 WHERE guid=44733;
+UPDATE creature SET MovementType=1 WHERE guid=59378;
+UPDATE creature SET spawndist=8 WHERE guid=59378;
+UPDATE creature SET MovementType=1 WHERE guid=59375;
+UPDATE creature SET spawndist=8 WHERE guid=59375;
+UPDATE creature SET MovementType=1 WHERE guid=59377;
+UPDATE creature SET spawndist=8 WHERE guid=59377;
+UPDATE creature SET MovementType=1 WHERE guid=59376;
+UPDATE creature SET spawndist=8 WHERE guid=59376;
+UPDATE creature_template SET MovementType=1 WHERE entry=45711;
+UPDATE creature SET MovementType=1 WHERE id=45711;
+UPDATE creature SET spawndist=8 WHERE id=45711;
+UPDATE creature_template SET MovementType=1 WHERE entry=1914;
+UPDATE creature SET MovementType=1 WHERE id=1914;
+UPDATE creature SET spawndist=5 WHERE id=1914;
+UPDATE creature_template SET MovementType=1 WHERE entry=1913;
+UPDATE creature SET MovementType=1 WHERE id=1913;
+UPDATE creature SET spawndist=5 WHERE id=1913;
+UPDATE creature_template SET MovementType=1 WHERE entry=46575;
+UPDATE creature SET MovementType=1 WHERE id=46575;
+UPDATE creature SET spawndist=8 WHERE id=46575;
+
+-- add equipment for forsaken trooper
+DELETE FROM creature_equip_template WHERE entry=44733;
+INSERT INTO `creature_equip_template` VALUES ('44733', '1', '2179', '18166', '2551');
+
+DELETE FROM creature_equip_template WHERE entry=44733;
+INSERT INTO `creature_equip_template` VALUES ('44733', '1', '0', '0', '22318');
+
+-- fix knel state of the npc
+DELETE FROM creature_addon WHERE guid=254010;
+INSERT INTO `creature_addon` VALUES ('254010', '0', '0', '0', '1', '0', null);

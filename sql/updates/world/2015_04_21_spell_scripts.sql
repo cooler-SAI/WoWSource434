@@ -1,0 +1,10 @@
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('45524', 'spell_dk_chains_of_ice');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('58621', 'spell_dk_glyph_chains_of_ice');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('635', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('19750', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('20473', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('53563', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('82326', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('82327', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('85673', 'spell_pal_avenging_wrath_heal_bonus');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('86452', 'spell_pal_avenging_wrath_heal_bonus');

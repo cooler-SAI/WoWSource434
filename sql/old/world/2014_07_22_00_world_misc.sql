@@ -1,0 +1,16 @@
+UPDATE gameobject SET phaseMask=1 WHERE guid=7402;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7403;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7404;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7405;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7406;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7407;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7408;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7409;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7410;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7411;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7412;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7413;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7414;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7415;
+UPDATE gameobject SET phaseMask=1 WHERE guid=7416;
+DELETE FROM reference_loot_template WHERE entry IN (58015,58017.58019,58052);
